@@ -1,0 +1,70 @@
+
+# .NET
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+artifacts/
+TestResults/
+**/TestResults/
+*.user
+*.suo
+*.rsuser
+*.cache
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+*.sln.DotSettings.user
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/secrets.json
+**/secrets/
+**/credentials.json
+**/*.pfx
+**/*.p12
+**/*.key
+**/*.pem
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage
+coverage/
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+**/coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/

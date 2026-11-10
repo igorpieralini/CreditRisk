@@ -1,0 +1,6 @@
+@Exposure_HostAddress = http://localhost:5242
+
+GET {{Exposure_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

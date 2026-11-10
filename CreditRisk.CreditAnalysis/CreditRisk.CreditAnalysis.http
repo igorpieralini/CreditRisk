@@ -1,0 +1,6 @@
+@CreditRisk.CreditAnalysis_HostAddress = http://localhost:5207
+
+GET {{CreditRisk.CreditAnalysis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

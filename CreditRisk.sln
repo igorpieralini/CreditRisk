@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditRisk.CreditAnalysis", "CreditRisk.CreditAnalysis\CreditRisk.CreditAnalysis.csproj", "{0174C0C2-6DC1-4D94-9395-6DB56BA88461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditRisk.Guarantee", "CreditRisk.Guarantee\CreditRisk.Guarantee.csproj", "{092AB763-E0A4-4F5E-B1B9-E1A206A89995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditRisk.Exposure", "CreditRisk.Exposure\CreditRisk.Exposure.csproj", "{24DE391F-8DA6-499D-856B-4F5566E35DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditRisk.RiskDecision", "CreditRisk.RiskDecision\CreditRisk.RiskDecision.csproj", "{74BE0558-9036-4A8C-8AB5-8E843F5DCB3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditRisk.Monitoring", "CreditRisk.Monitoring\CreditRisk.Monitoring.csproj", "{EA7A880A-75C7-4E4C-A4A2-D74B46887ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditRisk.Tests", "CreditRisk.Tests\CreditRisk.Tests.csproj", "{D2B82600-38FA-45B2-884E-DDA21B31DF5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0174C0C2-6DC1-4D94-9395-6DB56BA88461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0174C0C2-6DC1-4D94-9395-6DB56BA88461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0174C0C2-6DC1-4D94-9395-6DB56BA88461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0174C0C2-6DC1-4D94-9395-6DB56BA88461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092AB763-E0A4-4F5E-B1B9-E1A206A89995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092AB763-E0A4-4F5E-B1B9-E1A206A89995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092AB763-E0A4-4F5E-B1B9-E1A206A89995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092AB763-E0A4-4F5E-B1B9-E1A206A89995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DE391F-8DA6-499D-856B-4F5566E35DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DE391F-8DA6-499D-856B-4F5566E35DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DE391F-8DA6-499D-856B-4F5566E35DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DE391F-8DA6-499D-856B-4F5566E35DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BE0558-9036-4A8C-8AB5-8E843F5DCB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BE0558-9036-4A8C-8AB5-8E843F5DCB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BE0558-9036-4A8C-8AB5-8E843F5DCB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BE0558-9036-4A8C-8AB5-8E843F5DCB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7A880A-75C7-4E4C-A4A2-D74B46887ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7A880A-75C7-4E4C-A4A2-D74B46887ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7A880A-75C7-4E4C-A4A2-D74B46887ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7A880A-75C7-4E4C-A4A2-D74B46887ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B82600-38FA-45B2-884E-DDA21B31DF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B82600-38FA-45B2-884E-DDA21B31DF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B82600-38FA-45B2-884E-DDA21B31DF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B82600-38FA-45B2-884E-DDA21B31DF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
