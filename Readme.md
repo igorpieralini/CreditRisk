@@ -198,13 +198,15 @@ CreditRisk/
 
 <samp>PostgreSQL &bull; Supabase &bull; Entity Framework Core</samp>
 
-<br/>
-
-</div>
+<br/><br/>
 
 Cada microsserviço possui responsabilidades próprias. Os serviços de persistência utilizam PostgreSQL, enquanto o RabbitMQ permite o processamento assíncrono de mensagens.
 
+<br/><br/>
+
 A comunicação via mensageria foi validada no serviço de monitoramento. A publicação automática de eventos entre todos os serviços ainda está em desenvolvimento.
+
+</div>
 
 <br/>
 
@@ -220,21 +222,27 @@ A comunicação via mensageria foi validada no serviço de monitoramento. A publ
 
 **175 testes aprovados · 0 falhas**
 
-<br/>
+<br/><br/>
 
 <samp>xUnit &bull; Testes de regras &bull; Cálculos &bull; Serviços</samp>
 
-</div>
+<br/><br/>
+
+<samp>Para executar os testes:</samp>
 
 <br/>
 
-Para executar os testes:
+<code>dotnet test CreditRisk.Tests/CreditRisk.Tests.csproj</code>
 
-```cmd
-dotnet test CreditRisk.Tests/CreditRisk.Tests.csproj
-```
+<br/><br/>
 
-A suíte inclui testes de comportamento e verificações estruturais. A cobertura integral das regras de negócio ainda não foi estabelecida.
+<samp>A suíte inclui testes de comportamento e verificações estruturais.</samp>
+
+<br/><br/>
+
+<samp>A cobertura integral das regras de negócio ainda não foi estabelecida.</samp>
+
+</div>
 
 <br/>
 
@@ -246,28 +254,64 @@ A suíte inclui testes de comportamento e verificações estruturais. A cobertur
 
 ### <samp>// execução</samp>
 
-</div>
+<br/>
 
 **Requisitos**
 
-- .NET SDK 10
-- PostgreSQL
-- RabbitMQ
-- Configuração local das credenciais de conexão
+<br/>
+
+<samp>.NET SDK 10 &bull; PostgreSQL &bull; RabbitMQ</samp>
+
+<br/><br/>
+
+<samp>Configuração local das credenciais de conexão</samp>
+
+<br/><br/>
 
 **Portas dos serviços**
 
-| Microsserviço | Porta |
-|---|---|
-| CreditAnalysis | 5207 |
-| Guarantee | 5100 |
-| Exposure | 5242 |
-| RiskDecision | 5272 |
-| Monitoring | 5181 |
+<br/>
 
-Execute cada microsserviço em seu próprio terminal, configurando previamente os serviços externos e as credenciais locais.
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center" width="200">Microsserviço</th>
+      <th align="center" width="120">Porta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">CreditAnalysis</td>
+      <td align="center"><code>5207</code></td>
+    </tr>
+    <tr>
+      <td align="center">Guarantee</td>
+      <td align="center"><code>5100</code></td>
+    </tr>
+    <tr>
+      <td align="center">Exposure</td>
+      <td align="center"><code>5242</code></td>
+    </tr>
+    <tr>
+      <td align="center">RiskDecision</td>
+      <td align="center"><code>5272</code></td>
+    </tr>
+    <tr>
+      <td align="center">Monitoring</td>
+      <td align="center"><code>5181</code></td>
+    </tr>
+  </tbody>
+</table>
 
-As credenciais do banco de dados não são distribuídas no repositório.
+<br/>
+
+<samp>Execute cada microsserviço em seu próprio terminal, configurando previamente os serviços externos e as credenciais locais.</samp>
+
+<br/><br/>
+
+<samp>As credenciais do banco de dados não são distribuídas no repositório.</samp>
+
+</div>
 
 <br/>
 
